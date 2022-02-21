@@ -1,0 +1,14 @@
+# Object files
+*.o
+*.a
+
+# backup file
+*~
+*.bak*
+
+# mruby bytecode
+*.mrb
+
+# Mac
+.DS_Store
+*.dSYM
