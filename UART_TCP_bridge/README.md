@@ -1,4 +1,4 @@
-# TCP <-> UART ブリッジ
+# UART <-> TCP ブリッジ
 
 ラズベリーパイのUARTと、TCPとのブリッジ。
 
