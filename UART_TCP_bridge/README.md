@@ -3,7 +3,7 @@
 ラズベリーパイのUARTと、TCPとのブリッジ。
 
 * 実行すると、/dev/serial0 と、TCP/IP 10023 番ポートをブリッジする。
-* 別途、Aloneライブラリ http://www.ruby-alone.org 及び、gem serial が必要。
+* 別途、Aloneライブラリ http://www.ruby-alone.org 及び、gem serialport が必要。
 * ターミナルモードにすると、シリアルターミナルとして動作する。
 * CR,LF の相互変換機能がある。
 
