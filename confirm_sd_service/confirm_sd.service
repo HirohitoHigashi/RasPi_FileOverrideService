@@ -1,0 +1,7 @@
+[Unit]
+Description=Read confirmation of all SD card sectors.
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/libexec/confirm_sd_read.sh
+WorkingDirectory=
