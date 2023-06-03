@@ -28,12 +28,17 @@ Support Raspberry Pi OS based on Debian 10 buster.
 ## How to use.
 
 1. Install and basic setup Raspberry Pi OS.
-2. Use the raspi-config command to enable the Overlay File System.
-3. Copy the provided files to /boot and /etc to the target.
-4. Activate the service with the following command line.
+2. Copy files as below.
+```
+cp etc/rc.local /etc/
+cp etc/systemd/system/file_override.service /etc/systemd/system/
+cp -Rv boot/my /boot/
+```
+3. Activate the service with the following command line.
 ```
 systemctl enable file_override
 ```
+4. Use the raspi-config command to enable the Overlay File System.
 5. and reboot!
 
 
