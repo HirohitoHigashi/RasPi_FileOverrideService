@@ -38,7 +38,7 @@ DSTDIR="/"
 
 if mount -t overlay | grep -q "overlay on / "; then
     echo "OVERRIDE FILES IN $SRCDIR"
-    rsync -av $SRCDIR $DSTDIR
+    rsync -rv $SRCDIR $DSTDIR
 else
     echo "NO OVERLAY FILE SYSTEM."
     mount
