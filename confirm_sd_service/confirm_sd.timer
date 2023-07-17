@@ -1,9 +1,0 @@
-[Unit]
-Description=Read confirmation of all SD card sectors.
-
-[Timer]
-OnBootSec=15min
-OnUnitActiveSec=1month
-
-[Install]
-WantedBy=timers.target
